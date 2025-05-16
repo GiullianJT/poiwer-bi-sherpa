@@ -1,0 +1,29 @@
+site_name: Power BI Sherpa
+site_url: https://<your-org>.github.io/powerbi-sherpa-site
+repo_url: https://github.com/<your-org>/powerbi-sherpa-site
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.annotate
+nav:
+  - Home: index.md
+  - DAX Basics:
+      - Overview: dax-basics/index.md
+      - Labs:
+          - Lab 1 template: dax-basics/labs/lab-template.md
+  - Visualization Basics:
+      - Overview: visualization-basics/index.md
+  - Semantic Modeling Basics:
+      - Overview: semantic-modeling-basics/index.md
+  - Power Query Basics:
+      - Overview: power-query-basics/index.md
+  - Power BI Application Overview:
+      - Overview: power-bi-application-overview/index.md
+markdown_extensions:
+  - admonition        # !!! note blocks
+  - tables
+  - toc:
+      permalink: true
