@@ -42,12 +42,4 @@ RETURN
 
 If those rules aren’t met, period functions will return unexpected blanks or totals.
 
-```
-
 ---
-
-**Next step:**  
-Commit these files to your `docs/dax-basics/` folder, update `mkdocs.yml` nav, and
-preview with `mkdocs serve`. Ping me once they’re in—happy to tweak wording or
-convert more content!
-```
