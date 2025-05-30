@@ -1,0 +1,24 @@
+# .gitignore at the repo root
+# ───────────────────────────
+# Ignore all files under docs/data
+/docs/data/**
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
